@@ -1,0 +1,507 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Anatomiya",
+      "slug": "anatomiya",
+      "islocked": false,
+      "coin": 300,
+      "content": "Inson tanasi tuzilishlari xaqida 3D atlaslar va videodarslar asosida o'rganish uchun bu bo'limga kiring content"
+    },
+    {
+      "id": "2",
+      "name": "Fiziologiya",
+      "slug": "fiziologiya",
+      "islocked": false,
+      "coin": 250,
+      "content": "Organizmning normal xolatda ishlashi uchun kerak bo'ladigan jarayonlar haqida bilib olish uchun bu bo'limga kiring"
+    },
+    {
+      "id": "3",
+      "name": "Gistologiya",
+      "slug": "gistologiya",
+      "islocked": false,
+      "coin": 350,
+      "content": "Hujayra va to'qimalarning mikroskopik tuzlishi va ularda kechadigan jarayonlarni o'rganish uchun tanlang"
+    },
+    {
+      "id": "4",
+      "name": "Biokimyo",
+      "slug": "biokimyo",
+      "islocked": false,
+      "coin": 400,
+      "content": "Organizmadagi biologik-kimyoviy jarayonlar va reaksiyalarni bilib olish uchun bu bo'limni tanlang"
+    },
+    {
+      "id": "5",
+      "name": "Mikrobiologiya",
+      "slug": "mikrobiologiya",
+      "islocked": true,
+      "coin": 400,
+      "content": "Mikroorganizmlar va viruslarning odam organizmi fizologik va patologik ta'sirini o'rganish uchun bu bo'limga kiring"
+    },
+    {
+      "id": "6",
+      "name": "Farmakologiya",
+      "slug": "farmakologiya",
+      "islocked": false,
+      "coin": 200,
+      "content": "Dori vositalarini organizmga ta'siri va retseptorlar haqida o'rganish uchun bu bo'limga kiring"
+    },
+    {
+      "id": "7",
+      "name": "Patologiya",
+      "slug": "patologiya",
+      "islocked": false,
+      "coin": 280,
+      "content": "Organizmda kechadigan patologik jarayonlar va kasalliklar haqida ma'lumot olish uchun bu bo'limga kiring"
+    }
+  ],
+  "departments": [
+    {
+      "name": "Nevrologiya",
+      "slug": "nevrologiya",
+      "dep": "anatomiya"
+    },
+    {
+      "name": "Osteologiya",
+      "slug": "osteologiya",
+      "dep": "anatomiya"
+    },
+    {
+      "name": "Miologiya",
+      "slug": "miologiya",
+      "dep": "anatomiya"
+    },
+    {
+      "name": "Splanxologiya",
+      "slug": "splanxologiya",
+      "dep": "anatomiya"
+    },
+    {
+      "name": "Artrologiya",
+      "slug": "artrologiya",
+      "dep": "anatomiya"
+    },
+    {
+      "name": "Angiologiya",
+      "slug": "angiologiya",
+      "dep": "anatomiya"
+    },
+    {
+      "name": "Uglevodlar",
+      "slug": "uglevodlar",
+      "dep": "biokimyo"
+    },
+    {
+      "name": "Lipidlar",
+      "slug": "lipidlar",
+      "dep": "biokimyo"
+    },
+    {
+      "name": "Aminokislotalar",
+      "slug": "aminokislotalar",
+      "dep": "biokimyo"
+    },
+    {
+      "name": "Vitaminlar",
+      "slug": "vitaminlar",
+      "dep": "biokimyo"
+    },
+    {
+      "name": "Minerallar va elektrolitlar",
+      "slug": "minerallar-va-elektrolitlar",
+      "dep": "biokimyo"
+    },
+    {
+      "name": "Nuklein kislotalar",
+      "slug": "nuklein-kislotalar",
+      "dep": "biokimyo"
+    },
+    {
+      "name": "Farmakokinetika",
+      "slug": "farmakokinetika",
+      "dep": "farmakologiya"
+    },
+    {
+      "name": "Farmakodinamika",
+      "slug": "farmakodinamika",
+      "dep": "farmakologiya"
+    }
+  ],
+  "lessontypes": {
+    "students": 25,
+    "percent": 0,
+    "lessons": [
+      {
+        "id": "miya1",
+        "type": "video",
+        "info": "Birinchi dars video",
+        "percent": 0
+      },
+      {
+        "id": "miya2",
+        "type": "content",
+        "info": "Birinchi dars tekst",
+        "percent": false
+      },
+      {
+        "id": "miya3",
+        "type": "flashcard",
+        "info": "Birinchi dars flashcard",
+        "percent": false
+      },
+      {
+        "id": "miya4",
+        "type": "video",
+        "info": "Ikkinchi dars video",
+        "percent": 0
+      },
+      {
+        "id": "miya5",
+        "type": "content",
+        "info": "Ikkinchi dars tekst",
+        "percent": false
+      },
+      {
+        "id": "miya6",
+        "type": "test",
+        "info": "test",
+        "percent": false
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "miya1",
+      "type": "video",
+      "info": "Birinchi dars video",
+      "content": "nTPBMKFjd48"
+    },
+    {
+      "id": "miya2",
+      "type": "content",
+      "info": "Birinchi dars tekst",
+      "content": [
+        {
+          "tag": "b",
+          "content": "Bosh miya"
+        },
+        {
+          "tag": "p",
+          "content": "Bosh miya uni oragan pardalari bilan birga kallaning miya qismi ichida joylashgan. Uning ustki yon yuzasi kalla gumbazini hosil qiladi. Pastki yuzasi kallaning ichki asosidagi chuqurchalarga mos murakkab relyefga ega. Bosh miyaning og‘irligi katta odamlarda 1100 dan 2000 g gacha, o‘rtacha: erkaklarda 1394, ayollarida 1245 g. Bosh miya uch yirik qismdan: bosh miya yarim pallasi, miyacha va bosh miya so‘g‘onidan iborat."
+        },
+        {
+          "tag": "br"
+        },
+        {
+          "tag": "b",
+          "content": "Bosh miya yarim pallasi"
+        },
+        {
+          "tag": "p",
+          "content": "Har bir bosh miyaning yarim pallasi quyidagi qismlardan iborat:"
+        }
+      ]
+    },
+    {
+      "id": "miya3",
+      "type": "flashcard",
+      "info": "Birinchi dars flashcard",
+      "content": [
+        {
+          "front": "Bosh qanday qismlardan iborat?",
+          "back": "bosh miya yarim pallasi, miyacha va bosh miya so‘g‘oni",
+          "img": false
+        },
+        {
+          "front": " Bosh miya qutblarini sanang?",
+          "back": "peshona qutbi (polus frontalis), ensa qutbi (polus occipitalis) va chakka qutbi (polus temporalis)",
+          "img": false
+        },
+        {
+          "front": "Bosh miya pallasining bo’laklarini sanang?",
+          "back": "peshona, tepa, ensa, chakka bo‘laklari va orolcha",
+          "img": false
+        },
+        {
+          "front": "Roland egati qayerda joylashgan? ",
+          "back": " Roland egati (sulcus centralis) peshona bo‘lagiva tepa bo‘lagi orasida.",
+          "img": false
+        }
+      ]
+    },
+    {
+      "id": "miya4",
+      "type": "video",
+      "info": "Ikkinchi dars video",
+      "content": "nTPBMKFjd48"
+    },
+    {
+      "id": "miya5",
+      "type": "content",
+      "info": "Ikkinchi dars tekst",
+      "content": [
+        {
+          "tag": "b",
+          "content": "Bosh miya"
+        },
+        {
+          "tag": "p",
+          "content": "Bosh miya uni oragan pardalari bilan birga kallaning miya qismi ichida joylashgan. Uning ustki yon yuzasi kalla gumbazini hosil qiladi. Pastki yuzasi kallaning ichki asosidagi chuqurchalarga mos murakkab relyefga ega. Bosh miyaning og‘irligi katta odamlarda 1100 dan 2000 g gacha, o‘rtacha: erkaklarda 1394, ayollarida 1245 g. Bosh miya uch yirik qismdan: bosh miya yarim pallasi, miyacha va bosh miya so‘g‘onidan iborat."
+        },
+        {
+          "tag": "b",
+          "content": "Bosh miya yarim pallasi"
+        },
+        {
+          "tag": "p",
+          "content": "Har bir bosh miyaning yarim pallasi quyidagi qismlardan iborat:"
+        }
+      ]
+    },
+    {
+      "id": "miya6",
+      "type": "test",
+      "info": "test",
+      "content": [
+        {
+          "question": "Hangi gezegen Güneş Sistemi'mizde en büyük gezegendir?",
+          "options": ["Mars", "Dünya", "Jüpiter", "Venüs"],
+          "correctAnswer": "Jüpiter",
+          "explanation": "Jüpiter, Güneş Sistemi'mizde en büyük gezegendir.",
+          "coin": 5
+        },
+        {
+          "question": "Dünyamızın uydusu hangisidir?",
+          "options": ["Güneş", "Ay", "Yıldız", "Gezegen"],
+          "correctAnswer": "Ay",
+          "explanation": "Ay, Dünya'mızın doğal uydusudur.",
+          "coin": 3
+        },
+        {
+          "question": "En yüksek dağ hangisidir?",
+          "options": [
+            "Himalayalar",
+            "And Dağları",
+            "Everest",
+            "Karakurum Dağları"
+          ],
+          "correctAnswer": "Everest",
+          "explanation": "Everest, dünyanın en yüksek dağıdır.",
+          "coin": 7
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "_id": "6491494bb1bdd118b2174f0d",
+      "username": "akhmadjonov___1",
+      "email": "rsu1kla@femailtor.com",
+      "password": "122",
+      "courses": [
+        {
+          "name": "anatomiya",
+          "plan": "standart",
+          "date": "2023-07-24T06:23:17.025Z"
+        }
+      ],
+      "coin": 1000
+    },
+    {
+      "name": "zafarbek",
+      "email": "zafarabeklibekov2008@gmail.com",
+      "coin": null,
+      "courses": [
+        {
+          "name": "anatomiya",
+          "plan": "standart",
+          "date": "2023-07-24T06:23:17.025Z"
+        },
+        {
+          "name": "fiziologiya",
+          "plan": "pro",
+          "date": "2023-08-07T11:17:29.790Z"
+        },
+        {
+          "name": "gistologiya",
+          "plan": "standart",
+          "date": "2023-08-12T07:21:12.084Z"
+        },
+        {
+          "name": "farmakologiya",
+          "plan": "pro",
+          "date": "2023-08-12T07:37:53.780Z"
+        },
+        {
+          "date": "2023-08-12T07:38:08.722Z"
+        }
+      ],
+      "id": "8cf76354-4af8-4311-9cb8-026a7d434820"
+    },
+    {
+      "firstname": "zafarbek",
+      "username": "zafarbek.alibekov@bk.ru",
+      "email": "diyorbeky610@gmail.com",
+      "password": "zafar1234Z",
+      "id": "5c30d955-ed42-4f86-9dc4-768c2113ea1a",
+      "courses": [
+        {
+          "name": "anatomiya",
+          "plan": "standart",
+          "date": "2023-07-24T06:23:17.025Z"
+        }
+      ],
+      "coin": 1000
+    },
+    {
+      "firstname": "zafarbek",
+      "username": "zafarbek.alibekov@bk.ru",
+      "email": "lkasfhnLKJ@mail.ru",
+      "password": "zafar1234Z",
+      "id": "4d764c8e-c88e-4090-bd29-55ea05f2521a",
+      "courses": [
+        {
+          "name": "anatomiya",
+          "plan": "standart",
+          "date": "2023-07-24T06:23:17.025Z"
+        }
+      ],
+      "coin": 1000
+    },
+    {
+      "firstname": "zafarbek",
+      "username": "zafarbek.alibekov@bk.ru",
+      "email": "daWdWd@mail.ru",
+      "password": "zafar1234Z",
+      "id": "230830a9-b30d-479c-8dc7-780748c893bd",
+      "courses": [
+        {
+          "name": "anatomiya",
+          "plan": "standart",
+          "date": "2023-07-24T06:23:17.025Z"
+        }
+      ],
+      "coin": 1000
+    },
+    {
+      "firstname": "zafarbek",
+      "username": "zafarbek.alibekov@bk.ru",
+      "email": "dilsora.abduhalilova@bk.ru",
+      "password": "zafar1234Z",
+      "id": "e6ad0c67-516e-47d6-920a-44bd129ee9ff",
+      "courses": [
+        {
+          "name": "anatomiya",
+          "plan": "standart",
+          "date": "2023-07-24T06:23:17.025Z"
+        }
+      ],
+      "coin": 1000
+    },
+    {
+      "firstname": "zafarbek",
+      "username": "zafarbek.alibekov@bk.ru",
+      "email": "Sincere@april.biz",
+      "password": "zafar1234Z",
+      "id": "0ba0e570-b1f9-4cf9-b0cb-882f257d597f"
+    },
+    {
+      "name": "zafarbek",
+      "email": "lkasfhnLKawdawdJ@mail.ru",
+      "coin": null,
+      "courses": [
+        {
+          "name": "anatomiya",
+          "plan": "standart",
+          "date": "2023-07-27T07:51:53.705Z"
+        },
+        {
+          "name": "fiziologiya",
+          "plan": "pro",
+          "date": "2023-07-27T07:56:38.246Z"
+        },
+        {
+          "name": "gistologiya",
+          "plan": "standart",
+          "date": "2023-07-27T07:58:29.202Z"
+        },
+        {
+          "date": "2023-07-27T08:02:04.291Z"
+        }
+      ],
+      "id": "30320ad3-ca98-45cb-b77a-d875f218228b"
+    },
+    {
+      "firstname": "zafarbek",
+      "username": "zafarbek.alibekov@bk.ru",
+      "email": "zafarbek.wdwalibekov@bk.ru",
+      "password": "zafar1234Z",
+      "id": "5ce3006c-e011-4e76-a7a8-492f16dc21c2"
+    },
+    {
+      "coin": null,
+      "courses": [
+        {
+          "name": "anatomiya",
+          "plan": "standart",
+          "date": "2023-07-27T08:10:52.039Z"
+        },
+        {
+          "date": "2023-07-27T08:12:52.071Z"
+        }
+      ],
+      "id": "4bb6473e-f994-40ff-a406-aab0159eb0a1"
+    },
+    {
+      "firstname": "zafarbek",
+      "username": "zafarbek.alibekov@bk.ru",
+      "email": "zafarabeklibekovvvvvvvvvv2008@gmail.com",
+      "password": "zafar1234Z",
+      "id": "67f6a148-d8d6-48e7-b1ab-a5f803a4db52",
+      "courses": [
+        {
+          "name": "anatomiya",
+          "plan": "standart",
+          "date": "2023-07-27T08:14:57.742Z"
+        },
+        {
+          "name": "fiziologiya",
+          "plan": "standart",
+          "date": "2023-07-27T08:15:59.094Z"
+        },
+        {
+          "name": "gistologiya",
+          "plan": "standart",
+          "date": "2023-07-27T08:42:10.091Z"
+        },
+        {
+          "date": "2023-07-27T10:51:01.559Z"
+        }
+      ]
+    },
+    {
+      "firstname": "zafarbek",
+      "username": "zafarbek.alibekov@bk.ru",
+      "email": "zafarabeklibekadWDov2008@gmail.com",
+      "password": "zafar1234Z",
+      "id": "a5e69966-c281-4911-acfd-0d098bd84394",
+      "courses": [
+        {
+          "name": "anatomiya",
+          "plan": "standart",
+          "date": "2023-07-27T10:53:10.597Z"
+        },
+        {
+          "name": "gistologiya",
+          "plan": "pro",
+          "date": "2023-07-27T12:11:45.382Z"
+        },
+        {
+          "date": "2023-07-27T12:19:41.551Z"
+        }
+      ]
+    }
+  ]
+}
